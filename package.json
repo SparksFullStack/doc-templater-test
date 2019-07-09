@@ -1,0 +1,13 @@
+{
+  "name": "doc-templater-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SparksFullStack/doc-templater-test.git",
+  "license": "MIT",
+  "dependencies": {
+    "docxtemplater": "^3.13.3",
+    "express": "^4.17.1",
+    "jszip": "2",
+    "jszip-utils": "^0.1.0"
+  }
+}
