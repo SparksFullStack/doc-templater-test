@@ -7,7 +7,7 @@ module.exports = (req) => {
 
     // loading the docx file as a binary
     var content = fs
-        .readFileSync(path.resolve(__dirname, 'input.docx'));
+        .readFileSync(path.resolve(__dirname, 'fines-first-offense-letter.docx'));
 
     var zip = new JSZip(content);
     var doc = new Docxtemplater();

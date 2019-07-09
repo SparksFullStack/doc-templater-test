@@ -15,6 +15,10 @@ server.get('/doc-gen', (req, res) => {
 
 server.post('/doc-gen', (req, res) => {
     docGen(req.body);
-})
+});
+
+server.post('doc-gen/fines', (req, res) => {
+
+});
 
 server.listen(port, () => console.log(`The server is listening on port ${port}`));
