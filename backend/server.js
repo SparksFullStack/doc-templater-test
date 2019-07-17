@@ -10,7 +10,7 @@ server.get('/', (req, res) => {
 });
 
 server.get('/doc-gen', (req, res) => {
-    docGen();
+    docGen(req, res);
 });
 
 server.post('/doc-gen', (req, res) => {
