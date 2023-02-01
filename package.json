@@ -7,7 +7,7 @@
   "dependencies": {
     "docxtemplater": "^3.13.3",
     "express": "^4.17.1",
-    "jszip": "2",
+    "jszip": "3",
     "jszip-utils": "^0.1.0"
   }
 }
